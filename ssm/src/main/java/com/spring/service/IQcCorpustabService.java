@@ -1,8 +1,10 @@
 package com.spring.service;
 
-import com.spring.model.QcCorpustab;
 import com.spring.model.QcCorpustabKey;
 
+import java.util.List;
+import java.util.Map;
+
 public interface IQcCorpustabService {
-    QcCorpustab selectByPrimaryKey(QcCorpustabKey qcCorpustabKey);
+    List<Map<String,Object>> selectByPrimaryKey(QcCorpustabKey qcCorpustabKey);
 }

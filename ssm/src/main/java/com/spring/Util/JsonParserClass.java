@@ -1,4 +1,4 @@
-package com.spring.Util;
+package com.spring.util;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ public class JsonParserClass {
         if (!((originString.startsWith("{") && originString.endsWith("}")) || (originString.startsWith("[")
          && originString.endsWith("]")))){
 //            throw new RuntimeException("Invalid Json String!");
-            System.err.println("Invalid Json String!");
         }
+
         char c,b;
         char a=0;
         int indent=0;

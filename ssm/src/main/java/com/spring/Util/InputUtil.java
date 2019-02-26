@@ -1,8 +1,7 @@
-package com.spring.Util;
+package com.spring.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 

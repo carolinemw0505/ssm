@@ -30,4 +30,7 @@
         <property name="defaultEncoding" value="utf-8"></property>
         <property name="maxUploadSize" value="5242220"></property>
     </bean>
+
+    <bean id="initMethod" class="com.spring.quartz.Job" init-method="execute"></bean>
+
 </beans>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--  指定oracle Jar包路径,不然会报错-->
+    <classPathEntry location="D:\jdbc\ojdbc7.jar" />
+    <context id="MyBatis">
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+                        connectionURL="jdbc:oracle:thin:@10.20.1.238:11521:XE" userId="onlineqc" password="onlineqc"/>
+        <javaModelGenerator targetPackage="com.spring.model1" targetProject="src/main/java" />
+        <sqlMapGenerator targetPackage="mapper1" targetProject="src/main/resources" />
+        <javaClientGenerator targetPackage="com.spring.dao1" targetProject="src/main/java" type="XMLMAPPER" />
+        <table schema="onlineqc" tableName="Y_AGQUEUETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGAGENTGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGROUTEPOINTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGDNTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGDNOPTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGAGENTOPTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGAGENTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGAGENTGROUPQUEUEOPTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGAGENT2AGENTGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGPERSONTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGPLACE2DNTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_AGGENERALGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_EALARMDATATAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CFACETTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CHFACETTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CFACETVALUETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CHFACETVALUETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CFACETGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CHFACETGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CFACETOBJECTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CFACETINDEXTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CHFACETOBJECTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CHFACETINDEXTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CHFACETGROUPOBJECTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CFACETGROUPOBJECTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_COBJECTINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CAPPATTRTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CAPPLICATIONTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CSERVERCONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_DGAGENTOPTVALUETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_DGAGENTSTATUSINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_EMPLOYEEIMPORTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_DESTSYSMAPPINGBUSLINETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SDKPIDICTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORRTTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORHOURTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORDAYTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORWEEKTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMONTHTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORSEASONTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORYEARTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORRTTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORHOURTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORDAYTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORWEEKTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMONTHTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORSEASONTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORYEARTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORRTTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORHOURTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORDAYTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORWEEKTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMONTHTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORSEASONTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORYEARTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORRTTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORHOURTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORDAYTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORWEEKTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMONTHTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORSEASONTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORYEARTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMIN15TAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMIN15TAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMIN15TAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORMIN15TAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_MFACTORTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MSYSTEMOBJTYPETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MFACTORATTRTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SYSTEMDICTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVFACTORCALCCTLTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXDAYTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXHOURTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXDAYTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXSEASONTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXWEEKTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXYEARTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMONTHTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXDAYTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMONTHTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXYEARTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXSEASONTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXWEEKTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXHOURTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXYEARTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXWEEKTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMONTHTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXSEASONTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXHOURTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXHOURTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXDAYTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXWEEKTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXYEARTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXSEASONTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMONTHTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXRTTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXRTTAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXRTTAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXRTTAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMIN15TAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMIN15TAB1">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMIN15TAB2">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXMIN15TAB3">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXCALCULATESCHTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_HVINDEXTARGETTHSSCHTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MINDEXINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MINDEXATTRTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MINDEXRELATEDTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MGSTATTYPETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGQUEUETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGAGENTGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGAGENTGROUP2PERSONTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGPERSONTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGSWITCHTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGDNTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGAGENTLOGINTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGROUTEPOINTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGPERSON2AGENTLOGINTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGPLACETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGPLACE2DNTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_RGGENERALGROUPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMANAGERROLETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SROLETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SROLEPERMTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SPERMISSIONTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMENUITEMTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SIDCREATORTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMANAGERTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMANAGERATTRTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMANAGERLOGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMANAGERFACETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SHMANAGERFACETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SMGRCONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SPAGECONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SSYNCLOGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SSYSTEMSTATUSTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_STABPARTITIONTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_INDEXDATAIMPTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_INDEXDATAIMPMAPPINGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CTHRESHOLDCONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDCONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_COBJECTTHRESHOLDCONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTARGETHOURTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTARGETDAYTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTARGETWEEKTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTARGETYEARTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTARGETSEASONTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTARGETMONTHTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDHOURTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDWEEKTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDYEARTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDSEASONTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDMONTHTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_CINDEXTHRESHOLDDAYTAB0">
+        </table>
+        <table schema="onlineqc" tableName="Y_MBUILDINGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MBUILDINGATTRTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MSEATPOINTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MSEATINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MDIRECTORRESPONSETAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MSEAT2AGENTTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MDIRECTORSTATUSINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MDIRECTORSTATUSCHANGEINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_MHELPINFOTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SCENESTATUSALARMCONFIGTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SCENESTATUSALARMINDEXOBJTAB">
+        </table>
+        <table schema="onlineqc" tableName="Y_SCENESTATUSCONFIGATTRTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_CALLSESSIONSTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_TALKTEXTTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_TALKTEXTCHECKTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_POPUPINFO">
+        </table>
+        <table schema="onlineqc" tableName="QC_TALKCHECKPROCESSTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_TALKATTRCHECKTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_THRESHOLDTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_CORPUSTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_SKILLMATCHINGTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_ORGCHANGETAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_ORGCHANGEHISTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_QUALITYPERSONTAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_QUALITYRULETAB">
+        </table>
+        <table schema="onlineqc" tableName="QC_QUALITYMOULDTAB">
+        </table>
+        <table schema="onlineqc" tableName="S_SYSTEMCFGTAB">
+        </table>
+        <table schema="onlineqc" tableName="IDX_CALC_THS_TEMP_TAB">
+        </table>
+        <table schema="onlineqc" tableName="FID_TEMP_TABLE">
+        </table>
+        <table schema="onlineqc" tableName="GID_TEMP_TABLE">
+        </table>
+    </context>
+</generatorConfiguration>
